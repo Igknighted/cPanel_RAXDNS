@@ -1,0 +1,1 @@
+*/5 * * * * root php -q /opt/raxdns/raxdns.php
