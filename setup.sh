@@ -47,7 +47,7 @@ sed -i "s/API_KEY_HERE/$APIKEY/g" /opt/raxdns/config.conf
 echo
 echo
 echo
-echo First run of /opt/raxdns/raxdns.php
+echo First run of /opt/raxdns/raxdns.php (this might take a while)
 php /opt/raxdns/raxdns.php
 
 echo
