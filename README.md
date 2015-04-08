@@ -3,5 +3,5 @@ This is just some simple scripts that will automatically sync records from your 
 
 To install, simply run this on your server:
 ```
-curl -s https://raw.githubusercontent.com/Igknighted/cPanel_RAXDNS/master/setup.sh | bash
+wget https://raw.githubusercontent.com/Igknighted/cPanel_RAXDNS/master/setup.sh && bash setup.sh
 ```
