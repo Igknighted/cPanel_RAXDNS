@@ -30,7 +30,7 @@ if [ ! -f raxdns.php ]; then
   wget https://raw.githubusercontent.com/Igknighted/cPanel_RAXDNS/master/raxdns.cron
   mv -vf raxdns.cron /etc/cron.d/raxdns.cron
   wget https://raw.githubusercontent.com/Igknighted/cPanel_RAXDNS/master/config.example.conf
-  cp -vf config.example.conf  /opt/raxdns/config.conf
+  mv -vf config.example.conf  /opt/raxdns/config.conf
   chmod 600 /opt/raxdns/config.conf
 else
   echo Moving RAXDNS files into place.
